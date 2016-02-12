@@ -1,5 +1,5 @@
 require "rgrid/version"
 
-module Rgrid
+module RGrid
   # Your code goes here...
 end

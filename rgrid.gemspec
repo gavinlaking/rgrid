@@ -5,7 +5,7 @@ require 'rgrid/version'
 
 Gem::Specification.new do |spec|
   spec.name          = "rgrid"
-  spec.version       = Rgrid::VERSION
+  spec.version       = RGrid::VERSION
   spec.authors       = ["Gavin Laking"]
   spec.email         = ["gavinlaking@gmail.com"]
 

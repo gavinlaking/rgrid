@@ -1,3 +1,3 @@
-module Rgrid
-  VERSION = "0.1.0"
+module RGrid
+  VERSION = "0.0.1"
 end
