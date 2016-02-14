@@ -1,8 +1,13 @@
 # frozen_string_literal: true
 
-$LOAD_PATH.unshift File.expand_path('../../lib', __FILE__)
+if ENV['SIMPLECOV'].to_i == 1
+  require 'simplecov'
 
-require 'rgrid'
+  SimpleCov.start do
+    command_name 'MiniTest::Spec'
+    add_filter '/test/'
+  end
+end
 
 require 'minitest/autorun'
 require 'minitest/pride'
@@ -24,3 +29,7 @@ module MiniTest
   end # Spec
 
 end # MiniTest
+
+$LOAD_PATH.unshift File.expand_path('../../lib', __FILE__)
+
+require 'rgrid'
