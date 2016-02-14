@@ -17,7 +17,7 @@ module MiniTest
 
   class Spec
 
-    # parallelize_me! # uncomment to unleash hell
+    parallelize_me! # uncomment to unleash hell
     # i_suck_and_my_tests_are_order_dependent! # just incase
 
     class << self
