@@ -1,11 +1,9 @@
+# frozen_string_literal: true
+
 require 'test_helper'
 
-class RgridTest < Minitest::Test
-  def test_that_it_has_a_version_number
-    refute_nil ::Rgrid::VERSION
-  end
+describe RGrid do
 
-  def test_it_does_something_useful
-    assert false
-  end
-end
+  let(:described) { RGrid }
+
+end # RGrid

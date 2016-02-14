@@ -1,5 +1,16 @@
-require "rgrid/version"
+# frozen_string_literal: true
 
-module Rgrid
-  # Your code goes here...
-end
+require 'rgrid/version'
+
+require 'rgrid/invalid_grid'
+require 'rgrid/validator'
+require 'rgrid/grid'
+
+# RGrid is an Array-like data structure for Ruby for effectively
+# manipulating multi-dimensional arrays.
+#
+# @api public
+#
+module RGrid
+
+end # RGrid
