@@ -2,6 +2,8 @@
 
 require 'rgrid/version'
 
+require 'rgrid/invalid_grid'
+
 # RGrid is an Array-like data structure for Ruby for effectively
 # manipulating multi-dimensional arrays.
 #
