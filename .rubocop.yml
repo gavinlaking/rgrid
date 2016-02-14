@@ -1,0 +1,110 @@
+AllCops:
+  Include:
+    - '**/*.gemspec'
+    - '**/*.podspec'
+    - '**/*.jbuilder'
+    - '**/*.rake'
+    - '**/*.opal'
+    - '**/Gemfile'
+    - '**/Rakefile'
+    - '**/Capfile'
+    - '**/Guardfile'
+    - '**/Podfile'
+    - '**/Thorfile'
+    - '**/Vagrantfile'
+    - '**/Berksfile'
+    - '**/Cheffile'
+    - '**/Vagabondfile'
+  Exclude:
+    - 'test/**/*'
+    - 'vendor/**/*'
+  DisplayCopNames: true
+  DisplayStyleGuide: true
+  StyleGuideCopsOnly: false
+  TargetRubyVersion: 2.3
+
+Lint/UnusedMethodArgument:
+  Enabled: false
+
+Style/EmptyLinesAroundBlockBody:
+  EnforcedStyle: no_empty_lines
+
+Style/EmptyLinesAroundClassBody:
+  EnforcedStyle: empty_lines
+
+Style/EmptyLinesAroundModuleBody:
+  EnforcedStyle: empty_lines
+
+Style/ExtraSpacing:
+  Enabled: false
+
+# Style/GlobalVars:
+#   AllowedVariables: [$LIB_DIR]
+
+# Style/GuardClause:
+#   MinBodyLength: 1
+
+# Style/IfUnlessModifier:
+#   MaxLineLength: 80
+
+# Style/IndentationWidth:
+#   Width: 2
+
+# Style/IndentHash:
+#   EnforcedStyle: special_inside_parentheses
+#   SupportedStyles:
+#     - special_inside_parentheses
+#     - consistent
+
+Style/MultilineOperationIndentation:
+  Enabled: false
+
+Style/ModuleFunction:
+  Enabled: false
+
+# Style/Next:
+#   EnforcedStyle: skip_modifier_ifs
+#   MinBodyLength: 3
+#   SupportedStyles:
+#     - skip_modifier_ifs
+#     - always
+
+Style/RescueModifier:
+  Enabled: false
+
+Style/SpaceAroundOperators:
+  Enabled: false
+
+# Style/SpaceAroundEqualsInParameterDefault:
+#   EnforcedStyle: space
+
+# Style/SpaceBeforeBlockBraces:
+#   EnforcedStyle: space
+
+# Style/SpaceInsideBlockBraces:
+#   EnforcedStyle: space
+
+# Style/SpaceInsideHashLiteralBraces:
+#   EnforcedStyle: space
+
+Style/TrailingBlankLines:
+  EnforcedStyle: final_newline
+
+Style/TrailingCommaInLiteral:
+  EnforcedStyleForMultiline: comma
+
+Metrics/AbcSize:
+  Max: 25
+
+Metrics/CyclomaticComplexity:
+  Max: 10
+
+Metrics/MethodLength:
+  CountComments: false
+  Max: 5
+
+Metrics/ModuleLength:
+  Max: 100
+
+Metrics/PerceivedComplexity:
+  Max: 10
