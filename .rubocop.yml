@@ -15,8 +15,8 @@ AllCops:
     - '**/Berksfile'
     - '**/Cheffile'
     - '**/Vagabondfile'
-  Exclude:
     - 'test/**/*'
+  Exclude:
     - 'vendor/**/*'
   DisplayCopNames: true
   DisplayStyleGuide: true
@@ -27,7 +27,7 @@ Lint/UnusedMethodArgument:
   Enabled: false
 
 Style/EmptyLinesAroundBlockBody:
-  EnforcedStyle: no_empty_lines
+  Enabled: false
 
 Style/EmptyLinesAroundClassBody:
   EnforcedStyle: empty_lines
@@ -101,7 +101,7 @@ Metrics/CyclomaticComplexity:
 
 Metrics/MethodLength:
   CountComments: false
-  Max: 5
+  Max: 10
 
 Metrics/ModuleLength:
   Max: 100
