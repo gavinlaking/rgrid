@@ -1,5 +1,6 @@
-require "rgrid/version"
+# frozen_string_literal: true
+
+require 'rgrid/version'
 
 module RGrid
-  # Your code goes here...
-end
+end # RGrid
